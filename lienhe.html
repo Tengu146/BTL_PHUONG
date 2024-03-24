@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Du Lịch</title>
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Du Lịch Ninh Bình</h1>
+            <nav>
+                <ul>
+                    <li><a href="trangchu.html">Giới Thiệu</a></li>
+                    <li><a href="diemden.html">Điểm Đến</a></li>
+                    <li><a href="dv.html">Dịch Vụ</a></li>
+                    <li><a href="lienhe.html">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="contact">
+        <div class="container">
+            <h2>Liên Hệ</h2>
+            <div class="contact-form">
+                <form action="process_contact.php" method="POST">
+                    <label for="name">Họ và Tên:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Nội dung:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Gửi</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Thông Tin Liên Hệ</h3>
+                <p><strong>Địa chỉ:</strong>Đại Học Đại Nam</p>
+                <p><strong>Điện thoại:</strong>+84 3754907499</p>
+                <p><strong>Email:</strong>nguyenthiphuong392005@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> 2024 Du Lịch Tuyệt Vời.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
